@@ -30,6 +30,10 @@ However, the project's complexity posed a greater challenge and the datasets col
 
 Despite the shortcomings, the research has yielded valuable insights into the risk factors for suicide among discharged mental health patients, including the significant role of treatment adherence, psychiatric comorbidities, and socio-economic factors.
 
+![RiskFactors](./images/SuicideIncidenceFactors.png)
+
+---
+
 ## Project Structure
 
     /Suicide_Prevention_Project
@@ -66,6 +70,8 @@ The **Waterfall Approach** is used for structured data preparation phases such a
 
 The **Cross Industry Standard Process for Data Mining (CRISP-DM)** framework was chosen for _data mining and predictive modeling_, given its robustness in handling complex data analytics projects.
 
+---
+
 ## Research Questions
 
 The project will address four main research questions:
@@ -78,9 +84,13 @@ The project will address four main research questions:
 
 4. **Effectiveness of Machine Learning Models in Predicting Suicide Risk:** Can machine learning models predict the risk of suicide among discharged mental health patients, and which models are most effective?
 
+---
+
 ## Data Gathering and Preparation
 
 Datasets used in this project were gathered from the **Organization for Economic Co-operation and Development (OECD)**. These datasets include information from 19 countries regarding suicide risk among patients with mental disorders. The data is available in XML format and includes a data dictionary to guide interpretation and data analysis. The dataset is available at https://stats.oecd.org/
+
+---
 
 ## Stages
 
@@ -91,6 +101,8 @@ Datasets used in this project were gathered from the **Organization for Economic
 - **3. Neural Network Exploration:** Analyzing the applications, strengths, and weaknesses of different neural network types and architectures to determine the most suitable model for predicting suicide risk in the context of mental health care.
 
 - **4. Big Data System Analysis:** An exploration of design concepts, environments, architectural patterns and technology stacks to handle large datasets, assessing the feasibility to manage, retrieve and process large datasets efficiently and in an scalable way (Big Data).
+
+---
 
 ## Results
 
@@ -109,6 +121,13 @@ In order to advance more in the research, we prepared the following documents:
 - Annex 2: Specific Requirements and Assessments for Data Retrieval and Processing the Big Data Datasets for this project.
 
 - Annex 3: A not comprehensive list of the technology stack components that would be desirable in the implementation of th project
+
+  ![Excess Mortality Ratio BIPO](./images/Lineplot1.png)
+  ![Excess Mortality Ratio SCHI](./images/Lineplot2.png)
+  ![Suicide Rate vs Excess Mortality over time](./images/Lineplot3.png)
+  ![Suicide Rates and Ratios - Male vs Female](./images/Barplot1.png)
+
+---
 
 ## Conclusion
 
@@ -167,6 +186,8 @@ Make sure you have Python 3.7+ installed. You will also need to install the foll
 
 3.  Download the OECD datasets from the /data folder.
 
+---
+
 ## Usage
 
 **Running the Jupyter Notebook**
@@ -180,6 +201,8 @@ You can run each cell in the notebook to:
 1. Load and preprocess the data
 2. Perform sentiment analysis using different methods
 3. Visualize the results
+
+---
 
 ## License
 
